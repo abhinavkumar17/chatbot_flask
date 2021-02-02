@@ -1,0 +1,60 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+		{"tag": "pets",
+         "patterns": ["what is pets", "what is syncup pets", "what is syncup"],
+         "responses": ["Your pet is about to get an upgrade! SyncUP PETS™ is a T-Mobile network enabled tracker that attaches to a pet’s collar \nand that works with the SyncUP PETS app.\nTogether they are designed to encourage pet owners to be their best and to improve the quality and length of life of their pets.\nThe app tells you when your pet leaves a safe zone\n that you set up. The app helps you find a lost pet. It even tracks your pet’s activity throughout the day.\nThe tracker works on a wide range of fun-loving and adventurous pets, including dogs, cats, horses and pigs.\nBy knowing more, you’ll worry less and feel even more connected to your special friends. The tracker takes advantage of T-Mobile’s narrow band network and\nlow power communication. It can switch to Wi-Fi when needed, and it provides location information with a combination of the T-Mobile\nLTE network and GPS. Built-in Wi-Fi and low-energy signal radios provide additional communication channels\n and low power location tracking. The tracker includes a multi-color LED and a user button"]
+        },
+		{"tag": "included",
+         "patterns": ["what is included", "what is in the box", "how many items"],
+         "responses": ["Tracker—Round, plastic device witha light on the front, button on theback, and a battery and radios inside.\nCollar mount—Holds the trackerand secures it in place on your pet’scollar.\nBands—Flexible, rectangular bandsthat attach to tabs on the collarmount to hold the collar mount onthe collar.\nUSB cable—Connects to thecharging dock or power adapter forbattery recharge.Charging dock—Holds the trackerin place for recharging by a USBcable.\nWall charger—Plugs into a standardUS wall outlet; includes a USB Cport for connecting to tracker.Quick Start Guide—Helps you setup and start using the tracker."]
+        },
+		{"tag": "create account",
+         "patterns": ["how to create account", "where is my account", "what is first step in mobile app"],
+         "responses": ["Open the SyncUP PETS app on your smartphone and\ntapSign Up on the homescreen. Follow the prompts to create your new account.\nDuring this process, you will be asked to verify your T-Mobile phone number via text messaging.\nThis is your personal mobile phone number, not the number associated with your SyncUP PETS tracker"]
+        },
+		{"tag": "Add device",
+         "patterns": ["how to add device", "where to add pets device"],
+         "responses": ["During initial set up, the SyncUP PETS app tells you to add your device to get started.\nTap Add a Device and follow the prompts. Bluetooth Settings will pop up if it is not turned on because the tracker needs to pair with your phone to work properly.\nFollow these steps—pairing should only take a few minutes.\n1. Press the button on the back of the tracker and hold it down until the light on the front flashes blue every two seconds. This means that the tracker is in pairing mode.\n2. The light turns solid blue when pairing is successful. Now your tracker is all set—it’s connected to your phone.\nNote: If the tracker does not pair automatically with your phone, tap Enter Manually and type the 15-digit IMEI code located on the back of the tracker to complete the process."]
+        },
+		{"tag": "pet profile",
+         "patterns": ["create pet profile", "what is pet profile"],
+         "responses": ["Use the SyncUP PETS app to enter important information about your pet all in one place (for example, age, breed, dietary issues, registration ID, etc.)."]
+        },
+		{"tag": "lost pet",
+         "patterns": ["how to find lost per", "where to find lost pet"],
+         "responses": ["The app works with the tracker to help you find a lost pet. When you activate Lost Pet mode, the app tracks your pet’s location and provides map-based directions.\nFrom the app you can create a lost pet alert, and you can activate the LEDs on the tracker or sound its beeper as another way to find your pet"]
+        },{
+		"tag": "pair device",
+         "patterns": ["How to pair device?", "how to pair with mobile app"],
+         "responses": ["After making a pet profile you will be prompted to place your device on the charging dock and wait about 45 seconds until the tracker’s LED light starts flashing.\nThis puts the tracker into pairing mode.\n1. After you’ve placed the device on the charger and followed the prompt, tap Next.\n2. After tapping next you will be asked to select your device, which is\n\nidentified by the last few digits of your IMEI number. Doing so will start the\npairing process."]
+        },{
+		"tag": "mobile app",
+         "patterns": ["what is SyncUP PETS mobile app", "where is SyncUP PETS mobile app","what is syncup pets app","where is mobile app","where is Android and IOS app"],
+         "responses": ["The SyncUP PETS app is required for the complete experience, including accessing\nyour pet’s location. The app is available for free. Search for SyncUP PETS in the\nApple App Store, Google Play, or visit: www.t-mobile.com/syncuppets.\nTip: Verify that your smartphone is up to date with the latest operating system and\nthat it meets the minimum technical requirements."]
+        },{
+		"tag": "specifications",
+         "patterns": ["What is pets device specifications?", "what's in the device?","what's in the device"],
+         "responses": ["Battery\n• Battery Type: Li-Ion\n• Battery capacity (mAh): 430\n• Battery Charger: Dock with pogo pins, USB-C to A cable, USB-A AC adapter\n• Expected Battery Life: Up to 8 days depending on usage and ability to use WiFi and BLE connections\n• Highest specified charging temperature: 45℃\n• Lowest specified charging temperature: 11℃\nNote: The device may not charge at high temperatures (>40℃/104F) to prevent\npermanent damage to the battery and tracker.\nGeneral\n• Display: None\n• Waterproof/Dust Rating: IP67\n• SIM: Embedded\n• Sensors: Accelerometer, Temperature\n• User Controls: Button\n• LED Light: Red, Green, Blue, White (RGBW)\n• Speaker: Piezoelectric buzzer\n\nSyncUP PETS User Guide 10\nNetworks\n• NB-IOT\n• LTE Bands: 2, 4, 12, and 66\n• Roaming: Not supported\n• FCC ID: 2ASXC-TMO-NBT-01\nConnectivity\n• Wi-Fi: 802.11n on 2.4GHz\n• Bluetooth® BLE version 4.2 Class 1"]
+        },{
+		"tag": "features",
+         "patterns": ["What are features", "what i can do with device and app"],
+         "responses": ["Tracker Button\n Use the button located on the back of your tracker to perform various device functions\n. Activity Monitoring\n Monitor your pets with the in-app activity tracker. \nTrack their movement over days, weeks, or months.\nActivity Goals Activity goals are a fun way to keep your pet healthy and active.\nSet a daily goal for your pet in hours or minutes.\nSafe Zones Create virtual fences in areas you consider safe for your pet. If your pet ever leaves the area, the app will notify you, so you can quickly bring them back to safety.\nLast Known Location View your pet’s location on a virtual map and track their movements so long as they’re wearing the tracker. Tracking Mode Increase the frequency at which your tracker sends location updates, so you can find your pets fast and bring them home safe.\nDevice Light Device light is a feature that helps you keep track of your pet once the sun goes down. It’s perfect for evening potty breaks and exploring after dark. SyncUP PETS User Guide 7 Reminders Create reminders to give your furry friend treats, belly rubs, or anything else you can think of! Appointments Never miss a vet appointment or a doggie date.\nStore Documents Stay organized by storing things like vet bills, pet insurance, travel certificates, and more."]
+        },{
+		"tag": "help",
+         "patterns": ["How to reach support", "need help", "customer care","how to get help"],
+         "responses": ["Still need help? Reach out to T-Mobile General Customer Care & Technical Support.\nCustomer Care representatives are available daily from 3:00am to 10:00pm PT.\n\nBy postal mail: T-Mobile USA, Inc. 12920 SE 38th Street, Bellevue, Washington, United States, 98006 From your phone dial 611 or 1.877.453.1304.\nIf you are calling about technical issues related to your T-Mobile service, please call from a different phone so we can help troubleshoot the issue.\nCall Us - TTY TTY service is available for the hearing and speech impaired.\nHours are 5:00am to 10:00pm PT, daily. Call us via TTY toll free at 1-877-296-1018 For access to our T-Mobile Support Community, visit: https://support.tmobile.com"]
+        }  
+     ]
+}
